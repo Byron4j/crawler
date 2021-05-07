@@ -30,7 +30,8 @@ public class CsdnSpider4Article {
     private static String url2 = "https://zyt505050.blog.csdn.net/article/details/85297392";
 
     public static void main(String[] args) throws Throwable {
-        spiderArticleByLinkUrl("https://blog.csdn.net/weixin_48612224/article/details/110197706");
+        //spiderArticleByLinkUrl("https://blog.csdn.net/weixin_48612224/article/details/110197706");
+        spiderArticleByLinkUrl("https://elastic.blog.csdn.net/article/details/53843771");
     }
 
     public static void spiderArticleByLinkUrl(String url) throws IOException {
